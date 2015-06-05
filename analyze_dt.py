@@ -121,6 +121,8 @@ def get_iris_data():
 if __name__ == '__main__':
     print("\n-- get data:")
     df = get_iris_data()
+
+    print("\n-- df.head():")
     print(df.head(), end="\n\n")
 
     features = ["SepalLength", "SepalWidth", "PetalLength", "PetalWidth"]
