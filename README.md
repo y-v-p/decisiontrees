@@ -1,6 +1,6 @@
 # decision trees: scikit-learn + pandas
 
-This script/modue provides an example of learning a deccision tree with
+This script provides an example of learning a decision tree with
 scikit-learn.  Pandas is used to read data and custom functions are employed
 to investigate the decision tree after it is learned.  Grab the code and try
 it out.
@@ -12,17 +12,26 @@ it out.
 * pandas
 * numpy
 
-and to create the graphc of the tree you muust have graphviz/dot installed.
+and to create the graphic of the tree you must have graphviz/dot installed.
 
 ## Usage
 
 ### 1. Run script from command line
 
+This provides an example of using the available functions-- look at lines
+122-143 to see what is done.
+
 ```bash
 $ python analyze_dt.py
 ```
 
-should produce
+This:
+
+* Fetches the data using pandas, or grabs the local copy.
+* Outputs the *head* of the pandas data frame.
+* Fits the decision tree and outputs the *pseudo code* for the decision tree.
+* Uses pandas to show that the first branch at *PetakLength <= 2.45* is easily
+  verified.
 
 ```
 -- get data:
