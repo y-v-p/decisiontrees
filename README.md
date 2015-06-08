@@ -32,7 +32,7 @@ This:
 * Fetches the data using pandas, or grabs the local copy.
 * Outputs the *head* of the pandas data frame.
 * Fits the decision tree and outputs the *pseudo code* for the decision tree.
-* Uses pandas to show that the first branch at *PetakLength <= 2.45* is easily
+* Uses pandas to show that the first branch at *PetalLength <= 2.45* is easily
   verified.
 
 ```
