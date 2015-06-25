@@ -37,6 +37,8 @@ This:
 * Uses pandas to show that the first branch at *PetalLength <= 2.45* is easily
   verified.
 
+The resulting output is:
+
 ```
 -- get data:
 -- iris.csv found locally
