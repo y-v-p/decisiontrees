@@ -5,7 +5,9 @@ scikit-learn.  Pandas is used to read data and custom functions are employed
 to investigate the decision tree after it is learned.  Grab the code and try
 it out.
 
-A blog post about this code is available *soon*.
+A blog post about this code is available
+[here](http://chrisstrelioff.ws/sandbox/2015/06/08/decision_trees_in_python_with_scikit_learn_and_pandas.html),
+check it out!
 
 ## Requirements
 
